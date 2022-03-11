@@ -42,22 +42,22 @@ async def _(event):
 
 @poci_cmd(pattern="Phe(?: |$)(.*)")
 async def _(event):
-    xx = await edit_or_reply(event, f"**ga usah sok keras deh bg**")
+    xx = await edit_or_reply(event, f"**ga usah sok keras deh Goblok**")
     sleep(2)
-    await xx.edit("**karena lu petinggi di tele**")
+    await xx.edit("**karena lu petinggi di tele jamet**")
     sleep(1)
     await xx.edit("**atau karena title lu itu**")
     sleep(1)
-    await xx.edit("**ga ngaruh di rl bg.**")    
+    await xx.edit("**ga ngaruh di rl ngentod.**")    
 
 
 @poci_cmd(pattern="phe(?: |$)(.*)")
 async def _(event):
-    xx = await edit_or_reply(event, f"**ga usah sok keras deh bg**")
+    xx = await edit_or_reply(event, f"**ga usah sok keras deh tolol**")
     sleep(2)
-    await xx.edit("**karena lu petinggi di tele**")
+    await xx.edit("**karena lu petinggi di tele dasar jamet**")
     sleep(1)
-    await xx.edit("**atau karena title lu itu**")
+    await xx.edit("**atau karena title lu itu haha kontol**")
     sleep(1)
     await xx.edit("**ga ngaruh di rl bg**")
     
@@ -66,9 +66,9 @@ async def _(event):
 async def _(event):
     xx = await edit_or_reply(event, f"eh kamu, iya kamu")
     sleep(1)
-    await xx.edit("**ALAY** bnget sih")
+    await xx.edit("**ALAY** banget si jamet")
     sleep(1)
-    await xx.edit("spam bot mulu")
+    await xx.edit("spam bot mulu alay kesan nya")
     sleep(1)
     await xx.edit("baru jadi userbot ya?? xixixi")
     sleep(1)
@@ -161,9 +161,9 @@ async def _(event):
     await xx.edit("`Hmmmm`")
     await xx.edit("`Hmmmmm`")
     sleep(2)
-    await xx.edit("`Hujan Hujan Gini Ange😔`")
+    await xx.edit("`Hujan Hujan Gini Ange Ka😔`")
     sleep(2)
-    await xx.edit("`Enaknya Coli🤤`")
+    await xx.edit("`Enaknya Coli Nihh🤤`")
     sleep(1)
     await xx.edit("`8✊===D`")
     await xx.edit("`8=✊==D`")
@@ -203,11 +203,11 @@ async def _(event):
     await xx.edit("`Hmm`")
     await xx.edit("`Hmmm😔`")
     sleep(2)
-    await xx.edit("`Ini Untuk Yang Terkahir`")
+    await xx.edit("`Ini Untuk Yang Terakhir Kalinya`")
     sleep(2)
-    await xx.edit("`Kenapa Ya Gw Coli Tadi😔`")
+    await xx.edit("`Kenapa Ya Gw Coli Tadi Goblok Banget ya😔`")
     sleep(2)
-    await xx.edit("`Dah la besok besok ga mau lagi`")
+    await xx.edit("`Dah la besok besok ga mau coli lagi`")
 
     
 @poci_cmd(pattern="ange(?: |$)(.*)")
@@ -216,7 +216,7 @@ async def _(event):
     sleep(1)
     await xx.edit("`Ange😫`")
     sleep(1)
-    await xx.edit("`Ayukkk Ewean Ayanggg🤤`")
+    await xx.edit("`Ayukkk Ewe Eweean Ayanggg🤤`")
 
 
 @poci_cmd(pattern="engas(?: |$)(.*)")
@@ -235,7 +235,7 @@ async def _(event):
     sleep(1)
     await xx.edit("Ayo kita happy")
     sleep(1)
-    await xx.edit("Tapi pake pengaman")
+    await xx.edit("Tapi pake Kondom")
   
 
 @poci_cmd(pattern="dahla(?: |$)(.*)")
@@ -253,7 +253,7 @@ async def _(event):
     sleep(2)
     await xx.edit("Kayanya kalau call pribadi lebih jelas")
     sleep(2)
-    await xx.edit("Gamau nyoba?")
+    await xx.edit("Gamau nyoba?nyesel nanti")
 
 
 # Nih buat lo yang sangean anjg.
@@ -266,11 +266,11 @@ async def _(event):
     sleep(2)
     await xx.edit("Yuu kak temenin :( ")
     sleep(2)
-    await xx.edit("Lagi tegang nihh")
+    await xx.edit("Lagi sangee nihh")
     sleep(2)
     await xx.edit("Bentar doang ko 🥺")
     sleep(2)
-    await xx.edit("Nanti aku tf deh janjii")
+    await xx.edit("Nanti aku tranfer deh janjii")
 
     
 # Pocong - Userbot
@@ -314,35 +314,35 @@ CMD_HELP.update(
     "animasi1": f"**Perintah**: **animasi1**\
     \n**Total Command: 15**\
     \n\nㅤㅤ•**Syntax**: {cmd}hai\
-    \n•**Function**: __Cosplay Nissa Sablon__\
+    \n•**Function**: __hai anak kontol__\
     \n\nㅤㅤ•**Syntax**: {cmd}kntl\
-    \n•**Function**: __Kalian kntl__\
+    \n•**Function**: __Kalian Jamet Telegram__\
     \n\nㅤㅤ•**Syntax**: {cmd}alay\
-    \n•**Function**: __Lumayanlah Buat Nyindir__\
-    \n\nㅤㅤ•**Syntax**: {cmd}sensodyne\
-    \n•**Function**: __Di sponsori oleh sensodyne😔__\
+    \n•**Function**: __Lumayanlah Buat Nyindir Si Jamet__\
+    \n\nㅤㅤ•**Syntax**: {cmd}lawak\
+    \n•**Function**: __Ngelawak lu?Emang Lucu lu ya Payah Jamet Telegram😂__\
     \n\nㅤㅤ•**Syntax**: {cmd}bullshit\
     \n•**Function**: __Komitmen tai asu__\
     \n\nㅤㅤ•**Syntax**: {cmd}ldr\
-    \n•**Function**: __Udah ldr di ghosting lagi :)__\
+    \n•**Function**: __Udah ldr di ghosting lagi Sedih Banget Ya:)__\
     \n\nㅤㅤ•**Syntax**: {cmd}insecure\
-    \n•**Function**: __Ingat ya ganteng / cantik jangan insinyur__\
+    \n•**Function**: __Ingat ya ganteng / cantik jangan insinyur Ya kontol__\
     \n\nㅤㅤ•**Syntax**: {cmd}abc\
     \n•**Function**: __gombal nichh__\
     \n\nㅤㅤ•**Syntax**: {cmd}sosad\
     \n•**Function**: __mengsad__\
-    \n\nㅤㅤ•**Syntax**: {cmd}odading\
-    \n•**Function**: __jangan lupa beli odading nya ngabs__\
+    \n\nㅤㅤ•**Syntax**: {cmd}odading__\
+    \n•**Function**: __odading mang ojak jangan lupa beli cs__\
     \n\nㅤㅤ•**Syntax**: {cmd}phe / {cmd}Phe\
-    \n•**Function**: __Jagoan tele__\
+    \n•**Function**: __Jagoan tele jamet__\
     \n\nㅤㅤ•**Syntax**: {cmd}ehm\
     \n•**Function**: __Eum Biasalah cewe mau nya call mulu__\
     \n\nㅤㅤ•**Syntax**: {cmd}lopu\
-    \n•**Function**: __Nyatakan Cinta Ke Cewe Orng__\
-    \n\nㅤㅤ•**Syntax**: {cmd}dahlah\
-    \n•**Function**: __Cek Aja dh sndri__\
-    \n\nㅤㅤ•**Syntax**: {cmd}jawa\
-    \n•**Function**: __Jawa Pride Ni Bos.__"
+    \n•**Function**: __Nyatakan Cinta Ke Cewe Orang Aja__\
+    \n\nㅤㅤ•**Syntax**: {cmd}petinggi\
+    \n•**Function**: __Petinggi Tele Jangan Sokiya Ngentod__\
+    \n\nㅤㅤ•**Syntax**: {cmd}jamet\
+    \n•**Function**: __Muka lo kek daki ketek dasar jamet.__"
 
    
 })
@@ -354,12 +354,12 @@ CMD_HELP.update(
     \nNih buat lo yg sangean anjg\
     \n\nㅤㅤ•**Syntax**: {cmd}hujan\
     \n•**Function**: __Penyesalan Seorang Laki-laki Yang Diulangin Terus Menerus__\
-    \n\nㅤㅤ•**Syntax**: {cmd}engas\
-    \n•**Function**: __Sange berat__\
+    \n\nㅤㅤ•**Syntax**: {cmd}sange\
+    \n•**Function**: __Sange berat ka__\
     \n\nㅤㅤ•**Syntax**: {cmd}ange\
     \n•**Function**: __Ketik Ini Kalo Lu Lagi Sange__\
     \n\nㅤㅤ•**Syntax**: {cmd}vc\
-    \n•**Function**: __Buat ngajakin kakak cantik vcs🥺__"
+    \n•**Function**: __Buat ngajakin kakak cantik private🥺__"
     
 })
    
