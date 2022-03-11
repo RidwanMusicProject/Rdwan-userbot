@@ -32,7 +32,7 @@ async def _(event):
             "👁👁\n  👄  =====> Hey, How are you?",
             "👁👁\n  👅  =====> Everything okay?",
             "👁👁\n  💋  =====> Why are you staring at this?",
-            "👁👁\n  👄  =====> You idiot",
+            "👁👁\n  👄  =====> You Goblok",
             "👁👁\n  👅  =====> Go away",
             "👁👁\n  💋  =====> Stop laughing",
             "👁👁\n  👄  =====> It's not funny",
