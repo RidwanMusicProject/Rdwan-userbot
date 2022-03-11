@@ -16,10 +16,10 @@ from userbot.events import poci_cmd, register
 
 # ========================= CONSTANTS ============================
 AFKSTR = [
-    f"**Maaf {owner} Sedang OFF!**",
-    f"**Maaf {owner} Sedang OFF Tunggu Sampai Online!**",
-    f"**{owner} Sedang OFF Tunggulah Sampai Online**",
-    f"**Maaf {owner} Sedang OFF!**",
+    f"**Maaf {owner} Sedang OFF Tolol!**",
+    f"**Maaf {owner} Sedang OFF Tunggu Sampai Online Ngentod!**",
+    f"**{owner} Sedang OFF Tunggulah Sampai Bos Gua Online**",
+    f"**Maaf {owner} Sedang OFF Jamet!**",
 ]
 USER_AFK = {}
 afk_time = None
@@ -47,11 +47,11 @@ async def set_afk(afk_e):
     if string:
         AFKREASON = string
         await afk_e.edit(
-            f"**✘ {owner} Telah OFF ✘**\
+            f"**✘ {owner} Telah OFF ✘Halbert✧Userbot**\
         \n✦҈͜͡➳ **Karena :** `{string}`"
         )
     else:
-        await afk_e.edit(f"**✘ {owner} Telah OFF ✘**")
+        await afk_e.edit(f"**✘ {owner} Telah OFF ✘Halbert✧Userbot**")
     if user.last_name:
         await afk_e.client(
             UpdateProfileRequest(
@@ -90,7 +90,7 @@ async def type_afk_is_not_true(notafk):
     afk_end = back_alive.replace(microsecond=0)
     if ISAFK:
         ISAFK = False
-        msg = await notafk.respond(f"**{owner} Telah Kembali!**")
+        msg = await notafk.respond(f"**{owner} Telah Hidup Kembali!**")
         time.sleep(7)
         await msg.delete()
         await notafk.client(
@@ -250,7 +250,7 @@ async def afk_on_pm(sender):
             if sender.sender_id not in USERS:
                 if AFKREASON:
                     await sender.reply(
-                        f"✘ **{owner} Sedang OFF ✘** {afk_since} **Yang Lalu** ✘.\
+                        f"✘ **{owner} Sedang OFF ✘Halbert✧Userbot** {afk_since} **Yang Lalu** ✘.\
                         \n✦҈͜͡➳ **Karena :** `{AFKREASON}`"
                     )
                 else:
@@ -261,7 +261,7 @@ async def afk_on_pm(sender):
                 if USERS[sender.sender_id] % randint(2, 4) == 0:
                     if AFKREASON:
                         await sender.reply(
-                            f"✘ **{owner} Sedang OFF ✘** {afk_since} **Yang Lalu. ✘**\
+                            f"✘ **{owner} Sedang OFF ✘Halbert✧Userbot** {afk_since} **Yang Lalu. ✘**\
                             \n✦҈͜͡➳ **Karena :** `{AFKREASON}`"
                         )
                     else:
