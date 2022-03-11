@@ -1,4 +1,4 @@
-# <p align="center">𝑃𝑜𝑐𝑜𝑛𝑔 𝑈𝑠𝑒𝑟𝑏𝑜𝑡</p>
+# <p align="center">Halbert✧Userbot</p>
 
 <img src="https://telegra.ph/file/0297888edbdc754503e0b.jpg">
 </p>
@@ -14,7 +14,7 @@
     <img alt="PYTHON" src="https://img.shields.io/badge/PYTHON-v3.9.0-blue?style=for-the-badge&logo=appveyor"/>
    </p>
 
-PocongUserbot adalah userbot Telegram modular yang berjalan di Python3 dengan database sqlalchemy.
+Halbert✧Userbot adalah userbot Telegram modular yang berjalan di Python3 dengan database sqlalchemy.
 
 Berbasis [Paperplane](https://github.com/RaphielGang/Telegram-UserBot) dan [ProjectBish](https://github.com/adekmaulana/ProjectBish) userbot.
 Saya membuat repository ini untuk memilih dan menambahkan beberapa modul yang saya butuhkan dengan banyak perubahan, fitur dan modul.
@@ -34,12 +34,12 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan dengan bijak.
 <details>
     <summary> <b>🔗 Generate String Session</b></summary><br/>
 
-<p align="center"><a href="https://t.me/Stringpocongbot"><img src="https://img.shields.io/badge/Ambil%20String%20Session-blue?style=for-the-badge&logo=telegram" width="200"" /></a></p>
+<p align="center"><a href="https://t.me/StringWan_Bot"><img src="https://img.shields.io/badge/Ambil%20String%20Session-blue?style=for-the-badge&logo=telegram" width="200"" /></a></p>
 
 </details>
 
 <details>
-    <summary> <b>🔗 Deploy Pocong Userbot</b></summary><br/>
+    <summary> <b>🔗 Deploy Halbert✧Userbot</b></summary><br/>
 
 <p align="center"><a href="https://userbotindo.tech"><img src="https://img.shields.io/badge/Deploy%20Lewat%20Web%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="200"" /></a></p>
 
@@ -51,8 +51,8 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan dengan bijak.
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 ### Update & Support
-* Grup Support [[PocongUserbot]](https://t.me/PocongUserbot)
-* Channel Support [[Poocongonlen]](https://t.me/PocongProject)
+* Grup Support [[Halbert✧Userbot]](https://t.me/anonymoustelegrm)
+* Channel Support [[Halbert✧Userbot]](https://t.me/unclesamaja)
 
 <details>
     <summary>&#127942 <b>Credits</b></summary><br/>
