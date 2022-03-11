@@ -20,7 +20,7 @@ async def _(event):
     sleep(1)
     await xx.edit("gasukaa😫")
     sleep(1)
-    await xx.edit("__GELAYY__🤮")    
+    await xx.edit("__Jamet Alay__🤮")    
    
 
 @poci_cmd(pattern="kntl(?: |$)(.*)")
@@ -29,15 +29,15 @@ async def _(event):
     sleep(1)
     await xx.edit("se**KONT0L** **K0NTOL** nya si **K0NTOL**")
     sleep(1)
-    await xx.edit("lebih **KONTOL** lagi")              
+    await xx.edit("lebih **KONTOL** Elo Kontol")              
     sleep(1)
     await xx.edit("kalian")
-    await xx.edit("kalian **K**")
-    await xx.edit("kalian **Ko**")
-    await xx.edit("kalian **Kon**")
-    await xx.edit("kalian **Kont**")
-    await xx.edit("kalian **Konto**")
-    await xx.edit("kalian **Kontol**")
+    await xx.edit("kalian **N**")
+    await xx.edit("kalian **G**")
+    await xx.edit("kalian **E**")
+    await xx.edit("kalian **N**")
+    await xx.edit("kalian **T**")
+    await xx.edit("kalian **Ngentod**")
 
 
 @poci_cmd(pattern="Phe(?: |$)(.*)")
@@ -72,7 +72,7 @@ async def _(event):
     sleep(1)
     await xx.edit("baru jadi userbot ya?? xixixi")
     sleep(1)
-    await xx.edit("pantes **NORAK**")
+    await xx.edit("pantes **NORAK Abizz**")
     
 @poci_cmd(pattern="jawa(?: |$)(.*)")
 async def _(event):
@@ -106,9 +106,9 @@ async def _(event):
     sleep(1)
     await xx.edit("Tidak Seperti Yang Lain")
     sleep(1)
-    await xx.edit("Bersama Kuli Membangun Negri")
+    await xx.edit("Bersama Kuli Membangun Kota")
     sleep(1)
-    await xx.edit("eh salah salah, \nBersama **Jawa** Membangun Negri")
+    await xx.edit("eh salah salah, \nBersama **Jawa** Membangun Kota")
     
 @poci_cmd(pattern="erpe(?: |$)(.*)")
 async def _(event):
@@ -128,7 +128,7 @@ async def _(event):
     sleep(1)
     await xx.edit("Canda **BURIK**")
     sleep(1)
-    await xx.edit("Lari Ada Plastik KePanasan")
+    await xx.edit("Lari ada si burik pinterest")
     
     
 @poci_cmd(pattern="lopu(?: |$)(.*)")
@@ -149,7 +149,7 @@ async def _(event):
     await xx.edit("`Aku Sayang Kam`")
     await xx.edit("`Aku Sayang Kamu`")
     sleep(1)
-    await xx.edit("`I LOVE YOU 💞`")
+    await xx.edit("`I LOVE YOU I NEED U💞`")
     
     
 @poci_cmd(pattern="hujan(?: |$)(.*)")
@@ -161,9 +161,9 @@ async def _(event):
     await xx.edit("`Hmmmm`")
     await xx.edit("`Hmmmmm`")
     sleep(2)
-    await xx.edit("`Hujan Hujan Gini Ange Ka😔`")
+    await xx.edit("`Hujan Hujan Gini Bikin Snge Ka😔`")
     sleep(2)
-    await xx.edit("`Enaknya Coli Nihh🤤`")
+    await xx.edit("`Enaknya Private Nihh🤤`")
     sleep(1)
     await xx.edit("`8✊===D`")
     await xx.edit("`8=✊==D`")
@@ -194,9 +194,9 @@ async def _(event):
     await xx.edit("`8==✊=D`")
     await xx.edit("`8=✊==D`")
     await xx.edit("`8✊===D`")
-    await xx.edit("`crotss💦`")
-    await xx.edit("`crotss💦💦`")
-    await xx.edit("`crotss💦💦💦🤤`")
+    await xx.edit("`crotss Ahh💦`")
+    await xx.edit("`crotss Ahh💦💦`")
+    await xx.edit("`crotss Ahh💦💦💦🤤`")
     sleep(2)
     await xx.edit("`H`")
     await xx.edit("`Hm`")
@@ -207,14 +207,14 @@ async def _(event):
     sleep(2)
     await xx.edit("`Kenapa Ya Gw Coli Tadi Goblok Banget ya😔`")
     sleep(2)
-    await xx.edit("`Dah la besok besok ga mau coli lagi`")
+    await xx.edit("`Dah la besok besok coli lagi`")
 
     
 @poci_cmd(pattern="ange(?: |$)(.*)")
 async def _(event):
     xx = await edit_or_reply(event, f"`Ayanggggg😖`")
     sleep(1)
-    await xx.edit("`Ange😫`")
+    await xx.edit("`Sange😫`")
     sleep(1)
     await xx.edit("`Ayukkk Ewe Eweean Ayanggg🤤`")
 
@@ -223,7 +223,7 @@ async def _(event):
 async def _(event):
     xx = await edit_or_reply(event, f"Udah nggak kuat nahan")
     sleep(1)
-    await xx.edit("Pengen gitu-gituan")
+    await xx.edit("Pengen Kuda Kudaan")
     sleep(1)
     await xx.edit("Ayo cepat masukkan")
     sleep(1)
@@ -249,9 +249,9 @@ async def _(event):
 async def _(event):
     xx = await edit_or_reply(event, f"Eh..")
     sleep(2)
-    await xx.edit("Suara kamu ga jelas")
+    await xx.edit("Suara kamu kaya jamet sok di bagusin")
     sleep(2)
-    await xx.edit("Kayanya kalau call pribadi lebih jelas")
+    await xx.edit("Kayanya kalau call Keknya lebih jelasDeh😁")
     sleep(2)
     await xx.edit("Gamau nyoba?nyesel nanti")
 
@@ -322,7 +322,7 @@ CMD_HELP.update(
     \n\nㅤㅤ•**Syntax**: {cmd}lawak\
     \n•**Function**: __Ngelawak lu?Emang Lucu lu ya Payah Jamet Telegram😂__\
     \n\nㅤㅤ•**Syntax**: {cmd}bullshit\
-    \n•**Function**: __Komitmen tai asu__\
+    \n•**Function**: __Komitmen tai anjing__\
     \n\nㅤㅤ•**Syntax**: {cmd}ldr\
     \n•**Function**: __Udah ldr di ghosting lagi Sedih Banget Ya:)__\
     \n\nㅤㅤ•**Syntax**: {cmd}insecure\
