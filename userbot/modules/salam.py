@@ -32,7 +32,7 @@ async def _(event):
 
 @poci_cmd(pattern="L(?: |$)(.*)")
 async def _(event):
-    xx = await edit_or_reply(event, f"**Astaghfirullah, Jawab salam dong**")
+    xx = await edit_or_reply(event, f"**Astaghfirullah, Jawab salam dong Jamet**")
     sleep(2)
     await xx.edit("**Wa'alaikumsalam**")
 
