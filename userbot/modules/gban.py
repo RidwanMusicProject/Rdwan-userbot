@@ -52,7 +52,7 @@ async def gben(userbot):
     else:
         dark = await dc.edit("`Memproses Global Banned Jamet..`")
     me = await userbot.client.get_me()
-    await dark.edit("`Global Banned Akan Segera Aktif..`")
+    await dark.edit("`Global Banned Akan Segera Aktif Ye Anjing..`")
     my_mention = "[{}](tg://user?id={})".format(me.first_name, me.id)
     await userbot.get_chat()
     a = b = 0
@@ -67,10 +67,10 @@ async def gben(userbot):
         if not reason:
             reason = "Private"
     except BaseException:
-        return await dark.edit("**Gagal Global Banned :(**")
+        return await dark.edit("**Gagal Global Banned Gblok:(**")
     if user:
         if user.id in DEVS:
-            return await dark.edit("**Gagal Global Banned, Dia Adalah Pembuat Saya 🤪**")
+            return await dark.edit("**Gagal Global Banned, Dia Adalah Pembuat Userbot Saya 🤪**")
         try:
             from userbot.modules.sql_helper.gmute_sql import gmute
         except BaseException:
