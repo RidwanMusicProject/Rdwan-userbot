@@ -21,13 +21,13 @@ async def impostor(event):
     inputArgs = event.pattern_match.group(1)
 
     if "restore" in inputArgs:
-        await event.edit("**Kembali ke identitas asli...**")
+        await event.edit("**Kembali ke identitas lu yang asli...**")
         if not STORAGE.userObj:
             return await event.edit(
                 "**Anda harus mengclone orang dulu sebelum kembali!**"
             )
         await updateProfile(STORAGE.userObj, restore=True)
-        return await event.edit("**Berhasil Mengembalikan Akun Anda dari clone**")
+        return await event.edit("**Berhasil Mengembalikan Akun lu dari clone**")
     if inputArgs:
         try:
             user = await event.client.get_entity(inputArgs)
@@ -37,7 +37,7 @@ async def impostor(event):
     elif event.reply_to_msg_id:
         replyMessage = await event.get_reply_message()
         if replyMessage.sender_id is None:
-            return await event.edit("**Tidak dapat menyamar sebagai admin anonim 🥺**")
+            return await event.edit("**Tidak dapat menyamar sebagai admin anonim tolol 🥺**")
         userObj = await event.client(GetFullUserRequest(replyMessage.sender_id))
     else:
         return await event.edit("**Ketik** `.help impostor` **bila butuh bantuan.**")
@@ -47,9 +47,9 @@ async def impostor(event):
 
     LOGS.info(STORAGE.userObj)
 
-    await event.edit("**Mencuri identitas orang ini...**")
+    await event.edit("**Mencuri identitas si jamet ini...**")
     await updateProfile(userObj)
-    await event.edit("**Aku adalah kamu dan kamu adalah aku. asekk 🥴**")
+    await event.edit("**Gua adalah lu dan lu adalah Gua. Anjay 🥴**")
 
 
 async def updateProfile(userObj, restore=False):
