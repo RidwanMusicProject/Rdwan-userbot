@@ -90,7 +90,7 @@ async def deploy(event, repo, ups_rem, ac_br, txt):
             await asyncio.sleep(5)
             return await event.delete()
         await event.edit(
-            "`PocongUserbot Berhasil Di Deploy! Userbot bisa di gunakan kembali.`"
+            "`Halbert✧Userbot Berhasil Di Deploy! Userbot bisa di gunakan kembali.`"
         )
 
     else:
@@ -105,7 +105,7 @@ async def update(event, repo, ups_rem, ac_br):
         ups_rem.pull(ac_br)
     except GitCommandError:
         repo.git.reset("--hard", "FETCH_HEAD")
-    await event.edit("`PocongUserbot Berhasil Diupdate! Userbot bisa di Gunakan Lagi.`")
+    await event.edit("`Halbert✧Userbot Berhasil Diupdate! Userbot bisa di Gunakan Lagi.`")
 
     try:
         from userbot.modules.sql_helper.globals import addgvar, delgvar
@@ -164,12 +164,12 @@ async def upstream(event):
 
     changelog = await gen_chlog(repo, f"HEAD..upstream/{ac_br}")
     if conf == "deploy":
-        await event.edit("`[HEROKU]: Update Deploy PocongUserbot Sedang Dalam Proses...`")
+        await event.edit("`[HEROKU]: Update Deploy Halbert✧Userbot Sedang Dalam Proses...`")
         await deploy(event, repo, ups_rem, ac_br, txt)
         return
 
     if changelog == "" and not force_update:
-        await event.edit("**⚡ PocongUserbot Sudah Versi Terbaru**")
+        await event.edit("**⚡ Halbert✧Userbot Sudah Versi Terbaru**")
         await asyncio.sleep(15)
         await event.delete()
         return repo.__del__()
