@@ -88,7 +88,7 @@ async def reedme(event):
     await edit_or_reply(
         event,
         "**Berikut sesuatu untuk kamu baca:**\n"
-        "\n┌❏ [Userbot Repo](https://github.com/RidwanMusicProject/UserbotRdwn/blob/PocongUserbot/README.md)"
+        "\n┌❏ [Userbot Repo](https://github.com/RidwanMusicProject/UserbotRdwn/blob/README.md)"
         "\n└❏ [Setup Guide - LastFM Module](https://telegra.ph/How-to-set-up-LastFM-module-for-Paperplane-userbot-11-02)",
     )
 
@@ -322,7 +322,7 @@ CMD_HELP.update(
         \n\n  •  **Syntax :** `{cmd}shutdown`\
         \n  •  **Function : **Mematikan Userbot.\
         \n\n  •  **Syntax :** `{cmd} sleep`\
-        \n  •  **Function : **Biarkan PocongUserbot tidur selama waktu yg ditetapkan.\
+        \n  •  **Function : **Biarkan  Halbert☆Userbot tidur selama waktu yg ditetapkan.\
     "
     }
 )
