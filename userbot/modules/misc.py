@@ -63,7 +63,7 @@ async def shutdown_bot(event):
             "**#SHUTDOWN** \n"
             "**Halbert✧Userbot** telah di matikan!\nJika ingin menghidupkan kembali silahkan buka heroku",
         )
-    await edit_or_reply(event, "**Halbert✧Userbot Berhasil di matikan!**")
+    await edit_or_reply(event, "**Halbert✧Userbot Berhasil di matikan Ya Ngntod!**")
     if HEROKU_APP is not None:
         HEROKU_APP.process_formation()["worker"].scale(0)
     else:
@@ -74,10 +74,10 @@ async def shutdown_bot(event):
 async def restart_bot(event):
     if event.sender_id in SUDO_USERS:
         return
-    await edit_or_reply(event, "**Halbert✧Userbot Berhasil di Restart**")
+    await edit_or_reply(event, "**Halbert✧Userbot Berhasil di Restart Ngntod**")
     if BOTLOG_CHATID:
         await event.client.send_message(
-            BOTLOG_CHATID, "#RESTART \n" "Halbert✧Userbot Berhasil Di Restart**"
+            BOTLOG_CHATID, "#RESTART \n" "Halbert✧Userbot Berhasil Di Restart Ngntod**"
         )
     args = [sys.executable, "-m", "userbot"]
     execle(sys.executable, *args, environ)
@@ -111,7 +111,7 @@ async def repeat(event):
 async def repo_is_here(event):
     xx = await edit_or_reply(event, "`Processing...`")
     await xx.edit(
-        f"**Hey**, Saya Menggunakan  **.** \n\n"
+        f"**Hey**, Saya Menggunakan Userbot **.** \n\n"
         f"┌❏ **UserbotVersion :** `{BOT_VER}@{branch}`\n"
         f"├❏ **GroupSupport :** [anonymoustelegrm](t.me/anonymoustelegrm)\n"
         f"├❏ **Channel  :** [RidwanProject](t.me/unclesamaja)\n"
