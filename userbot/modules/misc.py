@@ -126,7 +126,7 @@ async def string_is_here(event):
         event,
         "**List Bot**\n"
         "\n┌❏ **GET STRING BOT:**"
-        "\n├❏ [[ KLIK DISINI ]](https://t.me/StringPocongBot)"
+        "\n├❏ [[ KLIK DISINI ]](https://t.me/StringWan_Bot)"
         "\n├❏ **GET API ID & API HASH :**"
         "\n└❏ [[ KLIK DISINI ]](https://t.me/pocongscrapbot)",
     )
@@ -294,11 +294,11 @@ CMD_HELP.update(
 
 CMD_HELP.update(
     {
-        "repo": f"**Plugin : **`Repository PocongUserbot`\
+        "repo": f"**Plugin : **`Repository Halbert✧Userbot`\
         \n\n  •  **Syntax :** `{cmd}repo`\
-        \n  •  **Function : **Menampilan link Repository PocongUserbot\
+        \n  •  **Function : **Menampilan link Repository Halbert✧Userbot\
         \n\n  •  **Syntax :** `{cmd}string`\
-        \n  •  **Function : **Menampilan link String PocongUserbot\
+        \n  •  **Function : **Menampilan link String Halbert✧Userbot\
     "
     }
 )
