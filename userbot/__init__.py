@@ -541,12 +541,12 @@ with bot:
                     description="Repository Halbert✧Userbot",
                     url="https://t.me/anonymoustelegrm",
                     thumb=InputWebDocument(INLINE_PIC, 0, "image/jpeg", []),
-                    text="**Halbert✧Userbot**\n➖➖➖➖➖➖➖➖\n✣ **Owner Repo :** [Halbert](https://t.me/rdwan_13)\n✣ **Support :** @anonymoustelegrm\n✣ **Repository :** [Halbert✧Userbot](https://github.com/RidwanMusicProject/UserbotRdwn)\n➖➖➖➖➖➖➖➖➖➖",
+                    text="**Halbert✧Userbot**\n➖➖➖➖➖➖➖➖\n✣ **Owner Repo :** [Halbert](https://t.me/rdwan_13)\n✣ **Support :** @anonymoustelegrm\n✣ **Repository :** [Halbert✧Userbot](https://github.com/RidwanMusicProject/Rdwan-Userbot)\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
                         [
                             custom.Button.url("𝐺𝑟𝑜𝑢𝑝", "https://t.me/unclesamaja"),
                             custom.Button.url(
-                                "𝑅𝑒𝑝𝑜", "https://github.com/RidwanMusicProject/UserbotRdwn"
+                                "𝑅𝑒𝑝𝑜", "https://github.com/RidwanMusicProject/Rdwan-Userbot"
                             ),
                         ],
                     ],
@@ -586,16 +586,16 @@ with bot:
                 )
             else:
                 result = builder.article(
-                    title=" PocongUserbot ",
-                    description="PocongUserBot | Telethon",
-                    url="https://t.me/PocongUserbot",
+                    title=" Halbert☆Userbot ",
+                    description="Halbert☆Userbot | Telethon",
+                    url="https://t.me/Halbert☆Userbot",
                     thumb=InputWebDocument(INLINE_PIC, 0, "image/jpeg", []),
-                    text=f"**PocongUserBot**\n➖➖➖➖➖➖➖➖➖ **UserMode:** [{user.first_name}](tg://user?id={user.id})\n✣ **Assistant:** {tgbotusername}\n➖➖➖➖➖➖➖➖\n**Support:** @PoocongUserbot\n➖➖➖➖➖➖➖➖",
+                    text=f"**Halbert☆Userbot**\n➖➖➖➖➖➖➖➖➖ **UserMode:** [{user.first_name}](tg://user?id={user.id})\n✣ **Assistant:** {tgbotusername}\n➖➖➖➖➖➖➖➖\n**Support:** @PoocongUserbot\n➖➖➖➖➖➖➖➖",
                     buttons=[
                         [
                             custom.Button.url("𝐺𝑟𝑜𝑢𝑝", "https://t.me/PocongUserbot"),
                             custom.Button.url(
-                                "𝑅𝑒𝑝𝑜", "https://github.com/poocong/PocongUserbot"
+                                "𝑅𝑒𝑝𝑜", "https://github.com/RidwanMusicProject/Rdwan-Userbot"
                             ),
                         ],
                     ],
@@ -610,7 +610,7 @@ with bot:
             if event.query.user_id == uid or event.query.user_id in SUDO_USERS:
                 current_page_number = int(looters)
                 buttons = paginate_help(current_page_number, dugmeler, "helpme")
-                text = f"**🚀 PocongUserbot Inline Menu **\n\n✣ **Owner** [{user.first_name}](tg://user?id={user.id})\n✣ **Jumlah** `{len(dugmeler)}` Modules"
+                text = f"**🚀 Halbert☆Userbot Inline Menu **\n\n✣ **Owner** [{user.first_name}](tg://user?id={user.id})\n✣ **Jumlah** `{len(dugmeler)}` Modules"
                 await event.edit(
                     text,
                     file=logoman,
