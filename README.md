@@ -4,7 +4,7 @@
 </p>
 
 <p align="center">
-    <img alt="HALBERT VERSION" src="https://img.shields.io/badge/POCONG%20VERSION-2.3.4-brightgreen"/>
+    <img alt="HALBERT VERSION" src="https://img.shields.io/badge/HALBERT%20VERSION-2.3.4-brightgreen"/>
     <img alt="BUILD IN" src="https://img.shields.io/badge/BUILD%20-Last Day-brightgreen"/>
            <a href="https://travis-ci.com/poocong/PocongUserbot.svg?branch=main" /></a>
     <a href="https://github.com/poocong/PocongUserbot/network/members"> <img src="https://img.shields.io/github/forks/poocong/PocongUserbot?logo=github&style=for-the-badge" /></a>
