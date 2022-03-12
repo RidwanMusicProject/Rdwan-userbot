@@ -319,7 +319,7 @@ CMD_HELP.update(
     \n•**Function**: __Kalian Jamet Telegram__\
     \n\nㅤㅤ•**Syntax**: {cmd}alay\
     \n•**Function**: __Lumayanlah Buat Nyindir Si Jamet__\
-    \n\nㅤㅤ•**Syntax**: {cmd}lawak\
+    \n\nㅤㅤ•**Syntax**: {cmd}sensodyne\
     \n•**Function**: __Ngelawak lu?Emang Lucu lu ya Payah Jamet Telegram😂__\
     \n\nㅤㅤ•**Syntax**: {cmd}bullshit\
     \n•**Function**: __Komitmen tai anjing__\
