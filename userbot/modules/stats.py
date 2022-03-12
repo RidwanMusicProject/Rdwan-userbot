@@ -89,7 +89,7 @@ async def stats(
     except BaseException:
         sp_count = 0
     full_name = inline_mention(await event.client.get_me())
-    response = f"📊 **Stats for {full_name}by Halbert✧Userbot** \n\n"
+    response = f"📊 **Stats for {full_name}Halbert✧Userbot** \n\n"
     response += f"**Private Chats:** {private_chats} \n"
     response += f"**  •• **`Users: {private_chats - bots}` \n"
     response += f"**  •• **`Bots: {bots}` \n"
