@@ -88,7 +88,7 @@ async def reedme(event):
     await edit_or_reply(
         event,
         "**Berikut sesuatu untuk kamu baca:**\n"
-        "\n┌❏ [Userbot Repo](https://github.com/RidwanMusicProject/UserbotRdwn/blob/README.md)"
+        "\n┌❏ [Userbot Repo](https://github.com/RidwanMusicProject/Rdwan-Userbot/blob/README.md)"
         "\n└❏ [Setup Guide - LastFM Module](https://telegra.ph/How-to-set-up-LastFM-module-for-Paperplane-userbot-11-02)",
     )
 
@@ -116,7 +116,7 @@ async def repo_is_here(event):
         f"├❏ **GroupSupport :** [anonymoustelegrm](t.me/anonymoustelegrm)\n"
         f"├❏ **Channel  :** [RidwanProject](t.me/unclesamaja)\n"
         f"├❏ **OwnerRepo :** [Halbert](t.me/rdwan_13)\n"
-        f"└❏ **Repo :** [Halbert✧Userbot](https://github.com/RidwanMusicProject/UserbotRdwn)\n"
+        f"└❏ **Repo :** [Halbert✧Userbot](https://github.com/RidwanMusicProject/Rdwan-Userbot)\n"
     )
 
 
