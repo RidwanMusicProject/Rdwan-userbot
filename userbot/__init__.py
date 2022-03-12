@@ -143,8 +143,8 @@ SUDO_HANDLER = os.environ.get("SUDO_HANDLER", r"$")
 OWNER_ID = int(os.environ.get("OWNER_ID") or 0)
 
 # Support
-GROUP = os.environ.get("GROUP", "PocongUserbot")
-CHANNEL = os.environ.get("CHANNEL", "PocongProject")
+GROUP = os.environ.get("GROUP", "anonymoustelegrm")
+CHANNEL = os.environ.get("CHANNEL", "unclesamaja")
 
 # Heroku Credentials for updater.
 HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", None)
@@ -163,7 +163,7 @@ UPSTREAM_REPO_URL = os.environ.get(
 )
 
 # Custom name sticker pack
-S_PACK_NAME = os.environ.get("S_PACK_NAME", "Tikell @PocongProject")
+S_PACK_NAME = os.environ.get("S_PACK_NAME", "Tikell @unclesamaja")
 
 # SQL Database URI
 DB_URI = os.environ.get("DATABASE_URL", None)
@@ -230,7 +230,7 @@ ZIP_DOWNLOAD_DIRECTORY = os.environ.get("ZIP_DOWNLOAD_DIRECTORY", "./zips")
 BITLY_TOKEN = os.environ.get("BITLY_TOKEN", None)
 
 # Bot Name
-TERM_ALIAS = os.environ.get("TERM_ALIAS", "PocongUserbot")
+TERM_ALIAS = os.environ.get("TERM_ALIAS", "unclesamaja")
 
 # Bot version
 BOT_VER = os.environ.get("BOT_VER", "3.0")
@@ -240,20 +240,20 @@ ALIVE_USERNAME = os.environ.get("ALIVE_USERNAME", None)
 
 # Default .alive logo
 ALIVE_LOGO = (
-    os.environ.get("ALIVE_LOGO") or "https://telegra.ph/file/4dad946885113195be82a.jpg"
+    os.environ.get("ALIVE_LOGO") or "https://telegra.ph/file/767a1abc41ef15c9a5ba7.jpg"
 )
 
 INLINE_PIC = (
-    os.environ.get("INLINE_PIC") or "https://telegra.ph/file/4dad946885113195be82a.jpg"
+    os.environ.get("INLINE_PIC") or "https://telegra.ph/file/767a1abc41ef15c9a5ba7.jpg"
 )
 
 # Picture For VCPLUGIN
 PLAY_PIC = (
-    os.environ.get("PLAY_PIC") or "https://telegra.ph/file/6213d267348beca02967.png"
+    os.environ.get("PLAY_PIC") or "https://telegra.ph/file/767a1abc41ef15c9a5ba7.jpg"
 )
 
 QUEUE_PIC = (
-    os.environ.get("QUEUE_PIC") or "https://telegra.ph/file/d6f92c979ad96b2031cba.png"
+    os.environ.get("QUEUE_PIC") or "https://telegra.ph/file/767a1abc41ef15c9a5ba7.jpg"
 )
 
 DEFAULT = [1675900974]
@@ -526,26 +526,26 @@ with bot:
             builder = event.builder
             result = None
             query = event.text
-            if event.query.user_id == uid and query.startswith("@PocongUserbot"):
+            if event.query.user_id == uid and query.startswith("@unclesamaja"):
                 buttons = paginate_help(0, dugmeler, "helpme")
                 result = builder.photo(
                     file=logoman,
                     link_preview=False,
-                    text=f"**🚀 PocongUserbot Inline Menu **\n\n✣ **Owner** [{user.first_name}](tg://user?id={user.id})\n✣ **Jumlah** `{len(dugmeler)}` Modules",
+                    text=f"**🚀 Halbert✧Userbot Inline Menu **\n\n✣ **Owner** [{user.first_name}](tg://user?id={user.id})\n✣ **Jumlah** `{len(dugmeler)}` Modules",
                     buttons=buttons,
                 )
             elif query.startswith("repo"):
                 result = builder.article(
                     title="Repository",
-                    description="Repository PocongUserbot",
-                    url="https://t.me/PocongUserbot",
+                    description="Repository Halbert✧Userbot",
+                    url="https://t.me/anonymoustelegrm",
                     thumb=InputWebDocument(INLINE_PIC, 0, "image/jpeg", []),
-                    text="**PocongUserBot**\n➖➖➖➖➖➖➖➖\n✣ **Owner Repo :** [Pocong](https://t.me/Pocongonlen)\n✣ **Support :** @PocongUserbot\n✣ **Repository :** [PocongUserbot](https://github.com/poocong/PocongUserbot)\n➖➖➖➖➖➖➖➖➖➖",
+                    text="**Halbert✧Userbot**\n➖➖➖➖➖➖➖➖\n✣ **Owner Repo :** [Halbert](https://t.me/rdwan_13)\n✣ **Support :** @anonymoustelegrm\n✣ **Repository :** [Halbert✧Userbot](https://github.com/RidwanMusicProject/UserbotRdwn)\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
                         [
-                            custom.Button.url("𝐺𝑟𝑜𝑢𝑝", "https://t.me/PocongUserbot"),
+                            custom.Button.url("𝐺𝑟𝑜𝑢𝑝", "https://t.me/unclesamaja"),
                             custom.Button.url(
-                                "𝑅𝑒𝑝𝑜", "https://github.com/poocong/PocongUserbot"
+                                "𝑅𝑒𝑝𝑜", "https://github.com/RidwanMusicProject/UserbotRdwn"
                             ),
                         ],
                     ],
