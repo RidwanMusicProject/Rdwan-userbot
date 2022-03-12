@@ -38,8 +38,8 @@ async def gcast(event):
     elif event.is_reply:
         msg = await event.get_reply_message()
     else:
-        return await edit_delete(event, "**Berikan Sebuah Pesan atau Reply**")
-    kk = await edit_or_reply(event, "`Globally Broadcasting Msg...`")
+        return await edit_delete(event, "**Berikan Sebuah Pesan atau Reply Norak**")
+    kk = await edit_or_reply(event, "`Globally Broadcasting Msg Kontol...`")
     er = 0
     done = 0
     async for x in event.client.iter_dialogs():
@@ -57,7 +57,7 @@ async def gcast(event):
                 except BaseException:
                     er += 1
     await kk.edit(
-        f"**Berhasil Mengirim Pesan Ke** `{done}` **Grup, Gagal Mengirim Pesan Ke** `{er}` **Grup**"
+        f"**Berhasil Mengirim Pesan Ke** `{done}` **Grup, Gagal Mengirim Pesan Ke Surga** `{er}` **Grup**"
     )
 
 
@@ -69,8 +69,8 @@ async def gucast(event):
     elif event.is_reply:
         msg = await event.get_reply_message()
     else:
-        return await edit_delete(event, "**Berikan Sebuah Pesan atau Reply**")
-    kk = await edit_or_reply(event, "`Globally Broadcasting Msg...`")
+        return await edit_delete(event, "**Berikan Sebuah Pesan atau Reply Norak**")
+    kk = await edit_or_reply(event, "`Globally Broadcasting Msg Jamet...`")
     er = 0
     done = 0
     async for x in event.client.iter_dialogs():
