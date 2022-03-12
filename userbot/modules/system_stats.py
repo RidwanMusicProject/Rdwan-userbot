@@ -168,7 +168,7 @@ async def amireallyalive(alive):
     user = await alive.client.get_me()
     uptime = await get_readable_time((time.time() - StartTime))
     output = (
-        f"**[Pocong Userbot](https://github.com/poocong/PocongUserbot) Telah Di Aktifkan.**\n\n"
+        f"**[Halbert☆Userbot](https://github.com/RidwaMusicProject/Rdwan-Userbot) Telah Di Aktifkan.**\n\n"
         
         f"┌ **😈Master :** [{user.first_name}](tg://user?id={user.id}) \n"
         f"├ **📂Modules :** `{len(modules)} Modules` \n"
