@@ -177,7 +177,7 @@ async def amireallyalive(alive):
         f"├ **👾TelethonVersion :** `{version.__version__}` \n"
         f"├ **{emoji}Pytgcalls Version :** `{pytgcalls.__version__}` \n"
         f"└ **⏳BotUptime :** `{uptime}` \n\n"
-        f"    **[𝗦𝘂𝗽𝗽𝗼𝗿𝘁](https://t.me/{GROUP})** | **[𝗖𝗵𝗮𝗻𝗻𝗲𝗹](https://t.me/{CHANNEL})** | **[𝗢𝘄𝗻𝗲𝗿](https://t.me/pocongonlen)**"
+        f"    **[𝗦𝘂𝗽𝗽𝗼𝗿𝘁](https://t.me/{GROUP})** | **[𝗖𝗵𝗮𝗻𝗻𝗲𝗹](https://t.me/{CHANNEL})** | **[𝗢𝘄𝗻𝗲𝗿](https://t.me/rdwan_13)**"
     )
     if ALIVE_LOGO:
         try:
