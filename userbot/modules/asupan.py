@@ -6,9 +6,7 @@ from userbot import CMD_HANDLER as cmd
 from userbot import CMD_HELP
 from userbot.utils import poci_cmd
 import random
-from userbot import owner
 from telethon.tl.types import InputMessagesFilterVideo
-from telethon.tl.types import InputMessagesFilterVoice
 
 
 @poci_cmd(pattern="asupan$")
@@ -20,7 +18,7 @@ async def _(event):
                 "@Gabutnyazaen", filter=InputMessagesFilterVideo
             )
         ]
-        aing = await event.client.get_me()
+        await event.client.get_me()
         await event.client.send_file(
             event.chat_id,
             file=random.choice(asupannya),
