@@ -9,10 +9,10 @@ async def usit(event):
     await edit_or_reply(
         event,
         f"**Hai {owner} Kalo Anda Tidak Tau Perintah Untuk Memerintah Ku Ketik** `.help` Atau Bisa Minta Bantuan Ke:\n"
-        f"✣ **GroupSupport :** [Grup Support](t.me/poconguserbot)\n"
-        f"✣ **Channel :** [Channel](t.me/PocongProject)\n"
-        f"✣ **OwnerRepo :** [Pocong Onlen](t.me/Pocongonlen)\n"
-        f"✣ **Repo :** [PocongUserbot](https://github.com/poocong/PocongUserbot)\n",
+        f"✣ **GroupSupport :** [Grup Support](t.me/anonymoustelegrm)\n"
+        f"✣ **Channel :** [Channel](t.me/unclesamaja)\n"
+        f"✣ **OwnerRepo :** [HALBERT](t.me/rdwan_13)\n"
+        f"✣ **Repo :** [HALBERT-Userbot](https://github.com/RidwanMusicProject/Rdwan-userbot)\n",
     )
 
 
@@ -20,7 +20,7 @@ async def usit(event):
 async def var(event):
     await edit_or_reply(
         event,
-        "**Daftar Lengkap Vars Dari PocongUserbotUserbot:** [KLIK DISINI](https://telegra.ph/List-Variabel-Heroku-untuk-Man-Userbot-09-22)",
+        "**Daftar Lengkap Vars Dari HALBERTUserbotUserbot:** [KLIK DISINI](https://telegra.ph/List-Variabel-Heroku-untuk-Man-Userbot-09-22)",
     )
 
 
