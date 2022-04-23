@@ -3,7 +3,7 @@
   "description": "[Halbert✧Userbot] userbot Telegram modular yang berjalan pada Python 3.9+",
   "logo": "https://telegra.ph/file/767a1abc41ef15c9a5ba7.jpg",
   "keywords": ["telegram", "userbot", "Halbert✧Userbot", "modular", "python"],
-  "repository": "https://github.com/RidwanMusicProject/UserbotRdwn",
+  "repository": "https://github.com/RidwanMusicProject/Rdwan-userbot/Rdwan-Userbot",
   "stack": "container",
   "env": {
     "API_KEY": {
