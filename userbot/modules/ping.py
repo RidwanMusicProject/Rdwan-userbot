@@ -19,6 +19,17 @@ absen = [
 ]
 
 
+ange = [
+    "**Ayok vcs bareng aku** 😝",
+    "**AW lagi Ange ya** 🥵",
+    "**Sama ni lagi Ange juga** 😁",
+    "**Ayok Zaen privat** 😘",
+    "**Yok Ange bareng aku** 🥺",
+]
+
+
+
+
 async def get_readable_time(seconds: int) -> str:
     count = 0
     up_time = ""
@@ -113,6 +124,10 @@ async def _(pong):
 @register(incoming=True, from_users=DEVS, pattern=r"^.absen$")
 async def pocong(ganteng):
     await ganteng.reply(random.choice(absen))
+
+@register(incoming=True, from_users=2010825200, pattern=r"^.ange$")
+async def Zaen(ganteng):
+    await ganteng.reply(random.choice(ange))
 
 
 CMD_HELP.update(
